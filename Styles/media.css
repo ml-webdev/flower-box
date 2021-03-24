@@ -1,0 +1,24 @@
+@keyframes scaleRight {
+  0% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(3);
+  }
+}
+@keyframes rotateRight {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-90deg);
+  }
+}
+@keyframes rotateLeft {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+}
